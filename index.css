@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(163, 76, 217);
+    text-align: center;
+}
+
+.input-field {
+  
+  transition: background-color 0.3s;
+  max-width: 100vw;
+  max-height: 100vw;
+}
+
+.input-field:hover {
+  background-color: rgb(150, 84, 84);
+}
+.place{
+    border-radius: 10px;
+}
+.submit{
+    border-radius: 10px;
+
+}
+
+.weather-updates{
+  margin: 0 auto;
+  display:block;
+  color: rgb(233, 224, 224);
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+
+  
+}
+.weather-updates:hover{
+  border: 4px solid;
+}
+img:hover {
+  
+  opacity: 0.6;
+  
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+img {
+  animation: fadeIn 1s ease-in-out;
+  border: 4px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+img:hover{
+  border-color: rgb(34, 255, 0);
+}
+
+
+
+
+
